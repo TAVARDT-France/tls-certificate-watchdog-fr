@@ -1,38 +1,38 @@
-# Surveillance des Certificats TLS/SSL | TAVARDT France
+# Watchdog Certificats TLS/SSL | TAVARDT France
 
-[![Monitor de Certificados](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-France-00C853.svg)](https://ag.tavardt.com/fr/cybersecurite/)
+[![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
+[![Juridiction](https://img.shields.io/badge/Juridiction-France-00C853.svg)](https://ag.tavardt.com/fr/cybersecurite/)
 
-Surveillance automatisée de l'expiration des certificats TLS/SSL, intégrité de la chaîne de confiance et conformité aux règles ANSSI en France.
+Surveillance automatisée de l'expiration des certificats SSL/TLS, de la chaîne de confiance et du chiffrement en France.
 
-Desenvolvido e mantido pela divisão de proteção de infraestruturas da **[TAVARDT France](https://ag.tavardt.com/fr/)**.
+Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **[TAVARDT France](https://ag.tavardt.com/fr/)**.
 
 ---
 
-## 1. Capacités de Surveillance Continue
+## 1. Périmètre de Vérification Technique
 
-Cet outil inspecte en temps réel la validité et la configuration cryptographique des certificats de vos serveurs :
+Cet utilitaire console analyse la validité temporelle, les algorithmes de chiffrement et l'autorité racine des connexions HTTPS :
 
-* **Alerte Préventive d'Expiration:** Calcule le nombre de jours restants avant caducité du certificat avec seuils d'alerte.
-* **Audit des Protocoles et Suites Cryptographiques:** Contrôle la prise en charge de TLS 1.3 et le rejet des protocoles vulnérables.
-* **Vérification de l'Autorité de Certification:** Examine l'identité de l'émetteur et la couverture des noms de domaine alternatifs.
-* **Exécution Autonome en Python:** Conçu avec les bibliothèques natives pour une intégration immédiate en cron et pipelines.
+* **Alerte d'Expiration Préventive:** Calcule les jours restants avant la fin de validité du certificat avec seuils d'alerte.
+* **Audit des Suites Cryptographiques:** Valide l'activation de TLS 1.3 et le rejet des protocoles non sécurisés.
+* **Vérification de l'Autorité Émettrice (CA):** Contrôle la chaîne de certification et les noms alternatifs (SAN).
+* **Zéro Dépendance Externe:** Fonctionne exclusivement avec les modules natifs ssl et socket de Python.
 
 ---
 
 ## 2. Guide de Déploiement Rapide
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Exécutez cet outil directement via Python sans installer de paquets tiers :
 
 ```bash
-python watchdog.py exemplo.com
+python watchdog.py exemple.fr
 ```
 
 ---
 
 ## 3. Outils de Diagnostic en Ligne (France)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Évaluez la résilience de vos applications publiques à l'aide des outils en ligne TAVARDT :
 
 * [Analyseur d'En-têtes HTTP de Sécurité](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
 * [Validateur Consent Mode v2 et RGPD](https://tools.tavardt.com/fr/validateur-consent-mode-v2-rgpd/)
@@ -42,6 +42,6 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 
 ---
 
-## 4. Conseil et Hardening Cryptographique
+## 4. Conseil et Remédiation Technique
 
-Pour un accompagnement en cryptographie d'infrastructure et audits de sécurité en France, contactez **[TAVARDT France](https://ag.tavardt.com/fr/contact/)**.
+Pour le durcissement cryptographique de vos serveurs et la réponse à incidents en France, contactez **[TAVARDT France](https://ag.tavardt.com/fr/contact/)**.
