@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-fr/tls-certificate-watchdog",
+  "version": "1.0.0",
+  "description": "Surveillance automatisée de l'expiration des certificats TLS/SSL et conformité aux règles ANSSI en France.",
+  "license": "MIT",
+  "author": "TAVARDT France (https://ag.tavardt.com/fr/)"
+}
