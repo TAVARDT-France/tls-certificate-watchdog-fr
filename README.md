@@ -3,7 +3,7 @@
 [![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
 Surveillance automatisée de l'expiration des certificats SSL/TLS, de la chaîne de confiance et du chiffrement en France.
 
-Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT France**.
+Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT**.
 
 ***
 
@@ -42,7 +42,7 @@ python watchdog.py exemple.fr
 
 ## 4. Conseil et Remédiation Technique
 
-Pour le durcissement cryptographique de vos serveurs et la réponse à incidents en France, contactez **TAVARDT France**.
+Pour le durcissement cryptographique de vos serveurs et la réponse à incidents en France, contactez **TAVARDT**.
 
 ***
 
