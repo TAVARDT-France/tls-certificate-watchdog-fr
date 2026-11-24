@@ -1,4 +1,4 @@
-# Watchdog Certificats TLS/SSL | TAVARDT France
+# Watchdog Certificats TLS/SSL
 
 [![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
 Surveillance automatisée de l'expiration des certificats SSL/TLS, de la chaîne de confiance et du chiffrement en France.
@@ -43,3 +43,7 @@ python watchdog.py exemple.fr
 ## 4. Conseil et Remédiation Technique
 
 Pour le durcissement cryptographique de vos serveurs et la réponse à incidents en France, contactez **TAVARDT France**.
+
+***
+
+© 2026 TAVARDT. Tous droits réservés.
