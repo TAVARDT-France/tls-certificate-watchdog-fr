@@ -1,6 +1,9 @@
 # Watchdog Certificats TLS/SSL
 
+[![Licence : MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Périmètre de Vérification Technique](https://img.shields.io/badge/TAVARDT-Diagnostic%20Technique-5b3cf5.svg)](https://tools.tavardt.com/fr/analyse-en-tetes-securite/)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+
 Surveillance automatisée de l'expiration des certificats SSL/TLS, de la chaîne de confiance et du chiffrement en France.
 
 Développé et maintenu par le pôle cybersécurité et protection des infrastructures de **TAVARDT**.
@@ -51,6 +54,11 @@ Pour le durcissement cryptographique de vos serveurs et la réponse à incidents
 * **Portail Entreprise:** https://ag.tavardt.com/fr/
 * **Suite de Diagnostic:** https://tools.tavardt.com/fr/
 * **Contact Technique:** https://ag.tavardt.com/fr/contact/
+
+***
+
+### Licence
+Distribué sous la licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ***
 
